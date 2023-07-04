@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "vitest --run --reporter verbose  --globals",
+    "test": "vitest --run --reporter verbose --globals ",
     "test:watch": "vitest",
     "start": "http-server -c-1"
   },
